@@ -4,7 +4,8 @@
 		<Card
 		:imgUrl="item.img"
 		:name="`Lvl ${item.lvl}`"
-		:title="item.title">
+		:title="item.title"
+		:link="item.alias">
 		{{item.descr}}
 		</Card>
 	</div>
